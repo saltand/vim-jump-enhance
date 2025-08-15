@@ -37,7 +37,13 @@
     "onStartupFinished"
   ],
   "contributes": {
-    "commands": [],
+    "commands": [
+      {
+        "command": "vim.enhance.jump",
+        "title": "jump",
+        "category": "VIM Enhance Jump"
+      }
+    ],
     "configuration": {
       "type": "object",
       "title": "ext-name",
