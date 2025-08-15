@@ -3,14 +3,14 @@
   "name": "vim-jump-enhance",
   "displayName": "vim-jump-enhance",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "packageManager": "pnpm@10.4.1",
   "description": "Provide a command that combines vim '%' function and vscode 'Emmet: Go to Matching Pair'",
   "author": "saltand <saltand@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/antfu/ext-name"
+    "url": "https://github.com/saltand/vim-jump-enhance"
   },
   "categories": [
     "Other"
@@ -38,7 +38,7 @@
     ],
     "configuration": {
       "type": "object",
-      "title": "ext-name",
+      "title": "VIM Jump Enhance",
       "properties": {}
     }
   },
